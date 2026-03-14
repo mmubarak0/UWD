@@ -1,0 +1,21 @@
+# Dependencies
+frontend/node_modules/
+backend/.venv/
+
+# Build outputs
+frontend/dist/
+frontend/.vite/
+
+# Local data
+backend/uwd_local.db
+backend/uwd_local.db-journal
+
+# Tooling and archives
+tools/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
