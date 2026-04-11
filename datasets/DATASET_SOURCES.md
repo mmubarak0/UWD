@@ -13,9 +13,11 @@ Dataset provenance notes:
 - fitbit_hourly_intensity_real.csv: copied from https://github.com/colinh80/fitbit_data_analysis fitabase_data.
 - fitbit_weight_log_real.csv: copied from https://github.com/colinh80/fitbit_data_analysis fitabase_data.
 - samsung_health_export_sample.csv: public Samsung Health export sample from https://github.com/bfaure/sHealthParser.
+- samsung_heart_rate_sdk_example.json: official Samsung Health Android Data API example for HeartRate.BINNING_DATA from https://developer.samsung.com/health/android/data/api-reference/com/samsung/android/sdk/healthdata/HealthConstants.HeartRate.html.
+- samsung_heart_rate_sdk_example.csv: CSV conversion of the same official Samsung heart-rate example values.
 
 Coverage status:
-- Heart rate: Garmin TCX, Fitbit JSON, Apple XML.
+- Heart rate: Garmin TCX, Fitbit JSON, Apple XML, Samsung (official SDK heart-rate example).
 - Activity and workouts: Garmin TCX, Apple workout/activity CSV, Fitbit daily activity and hourly intensity CSV.
 - Steps and distance: Apple step/distance CSV, Fitbit daily activity CSV, Samsung step-count CSV.
 - Sleep: Fitbit sleep CSV.
